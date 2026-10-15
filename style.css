@@ -1,0 +1,38 @@
+/* Estilo da página */
+body{
+    background-color: #F8F5EF
+    margin:0;
+}
+/* Navegação */
+.navegação{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 35px;
+    background-color:floralwhite ;
+}
+/* Imagem da Logo */
+.navegação img{
+width: 130px;
+height: auto;
+}
+/* Links da navegação */
+.navegação a {
+    color: rgb(39, 110, 39);
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navegação button{
+    background-color:rgb(32, 97, 32);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+/* Apresentação do restaurante */
+    main section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 35px;
+    }
