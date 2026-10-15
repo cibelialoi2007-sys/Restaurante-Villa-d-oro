@@ -1,38 +1,89 @@
-/* Estilo da página */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #F8F5EF;
-    margin: 0;
 }
-/* Navegação */
-.navegação{
+
+header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 35px;
     background-color:floralwhite ;
 }
-/* Imagem da Logo */
-.navegação img{
-width: 130px;
-height: auto;
+
+header img{
+    width: 130px;
+    height: auto;
 }
-/* Links da navegação */
-.navegação a {
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav a{
     color: rgb(39, 110, 39);
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid transparent;
 }
-.navegação button{
+
+nav a:hover{
+    border-bottom: 2px solid black;
+}
+
+.btn-reservar{
     background-color:rgb(32, 97, 32);
     color: white;
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
 }
-/* Apresentação do restaurante */
-    main section{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 30px 35px;
-    }
+
+.hero{
+    background-color: #FAF6EF;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 35px;
+}
+
+.esquerda-home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    
+}
+
+.p-home-superior{
+    font-family: 'Instrument Sans';
+    font-size: 15px;
+    font-weight: 400;
+    color: #654D23;
+}
+
+.h2-home{
+    font-family: 'Jomolhari';
+    font-size: 64px;
+}
+
+.p-home-inferior{
+    font-family: 'Instrument Sans';
+    font-size: 18px;
+    color: #5E5E5E;
+}
+
+.direita-home img{
+    width:600px;
+    height: 400px;
+    border-radius: 10px;
+}
+
