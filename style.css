@@ -86,6 +86,28 @@ nav a:hover{
     height: 400px;
     border-radius: 10px;
 }
+/* Sobre o restaurante */
+.SobreR{
+    color: #654D23;
+    font-family: Instrument Sans;
+    font-size: 20px;
+}
+    
+.sobre-restaurante h2{
+    color: #1a1a1a
+    font-family: Jomolhari;
+    font-size: 42px;
+}
+/* Icones */
+.icones{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
 
-.sobre-o
-
+.img-prato{
+    border-radius: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
