@@ -103,7 +103,6 @@ nav a:hover{
     grid-column: 1;
     grid-row: 1;
     
-
 }
 
 .SobreR p{
@@ -118,13 +117,6 @@ nav a:hover{
     font-size: 45px;
     margin-bottom: 20px;
     
-}
-
-.p-sobre-inferior{
-    font-family: 'Instrument Sans';
-    font-size: 18px;
-    color: #5E5E5E;
-
 }
 
 /* Icones sobre o restaurante */
