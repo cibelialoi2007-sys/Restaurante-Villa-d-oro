@@ -102,6 +102,7 @@ nav a:hover{
 .sobre-restaurante {
     grid-column: 1;
     grid-row: 1;
+    
 
 }
 
@@ -116,6 +117,7 @@ nav a:hover{
     font-family: 'Jomolhari';
     font-size: 45px;
     margin-bottom: 20px;
+    
 }
 
 .p-sobre-inferior{
@@ -137,15 +139,15 @@ nav a:hover{
     row-gap: 8px;
     text-align: center;
     font-family: 'Instrument Sans';
-    font-size: 15px;
+    font-size: 14px;
     color: #5E5E5E;
 
 }
 
 .icones {
     font-size: 30px;
-    color: rgb(32, 97, 32);
-    align-self: center;
+    color: #654D23;
+    align-self: end;
 }
 
 
