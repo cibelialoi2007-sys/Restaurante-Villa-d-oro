@@ -143,6 +143,15 @@ nav a:hover{
     display: flex;
     gap: 35px;
 }
+.esquerda-menu .p-menu{
+    font-family: 'Instrument Sans';
+    color: #654D23;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+
+
 
 .icones-sobre{
     grid-column: 1;
