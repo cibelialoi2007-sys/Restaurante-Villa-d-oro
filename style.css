@@ -116,12 +116,22 @@ nav a:hover{
     margin-bottom: 20px;
     
 }
-
+.img-sobre{
+    width: 631px;
+    height: 407px;
+    border-radius: 10px;
+    object-fit: cover;
+}
 /* Icones sobre o restaurante */
 .icones{
     display: flex;
     gap: 30px;
     margin-top: 30px;
+}
+.icones i{
+    font-size: 30px;
+    color: #654D23;
+    align-self: end;
 }
 .caixa{
     display: flex;
@@ -134,6 +144,7 @@ nav a:hover{
     color: #654D23;
     font-size: 35px;
 }
+/* Parte do menu */
 .menu{
     display: flex;
     justify-content: space-between;
@@ -142,6 +153,7 @@ nav a:hover{
 .direita-menu{
     display: flex;
     gap: 35px;
+    margin-right: 200px;
 }
 .esquerda-menu .p-menu{
     font-family: 'Instrument Sans';
@@ -155,42 +167,32 @@ nav a:hover{
     font-size: 42px;
     font-weight: 100;
 }
-
-
-
-
-
-.icones-sobre{
-    grid-column: 1;
-    grid-row: 2;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-auto-flow: column;
-    row-gap: 8px;
-    text-align: center;
+.descricao-menu{
     font-family: 'Instrument Sans';
-    font-size: 14px;
-    color: #5E5E5E;
-
+    color:#5E5E5E;
+    font-size: 18px;
 }
-
-.icones i{
-    font-size: 30px;
-    color: #654D23;
-    align-self: end;
+.btn-menu{
+    border: 1px solid #654D23;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color:#000000;
+    margin-top: 19px;
 }
-
-
+/* Parte da Reserva */
+.reserva{
+     background-color: #253B1D;
+     padding: 10px 35px;
+     width: 1280;
+     height: 446;
+}
+.
 
    
 
-.img-sobre{
-    width: 631px;
-    height: 407px;
-    border-radius: 10px;
-    object-fit: cover;
-}
+
+
+
 
 
 
