@@ -181,12 +181,31 @@ nav a:hover{
 }
 /* Parte da Reserva */
 .reserva{
-     background-color: #253B1D;
-     padding: 10px 35px;
-     width: 1280;
-     height: 446;
+    background-color: #253B1D;
+    padding: 10px 35px;
 }
-.
+.reserva h5{
+    font-family: 'Instrument Sans';
+    color: #F6F0E2;
+    font-size: 18px;   
+}
+.reserva h2{
+    font-family: "Jomolhari";
+    color: #FFFFFF;
+    font-size: 44px;
+}
+.reserva p{
+    font-family: 'Instrument Sans';
+    color: #F6F0E2;
+}
+.img-messas{
+    width: 571px;
+    height: auto;
+}
+
+
+    
+
 
    
 
