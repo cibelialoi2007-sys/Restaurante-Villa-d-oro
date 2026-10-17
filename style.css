@@ -180,30 +180,55 @@ nav a:hover{
     margin-top: 19px;
 }
 /* Parte da Reserva */
-.reserva{
+.secao-reserva{
     background-color: #253B1D;
-    padding: 10px 35px;
+    padding: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: row;
 }
 .reserva h5{
     font-family: 'Instrument Sans';
-    color: #F6F0E2;
-    font-size: 18px;   
+    color:#F6F0E2;
+    font-size: 18px;
 }
 .reserva h2{
-    font-family: "Jomolhari";
+    font-family: Jomolhari;
     color: #FFFFFF;
     font-size: 44px;
 }
 .reserva p{
     font-family: 'Instrument Sans';
     color: #F6F0E2;
+    font-size: 20px;
 }
-.img-messas{
-    width: 571px;
+.btn-tres button {
+    background-color: #F6F0E2;
+    color: #253B1D;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-family: 'Instrument Sans';
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* IMAGEM DA MESA RESERVA */
+.img-messas {
+    width: 45%;
+    max-width: 571px;
+    margin-left: auto;
+    
+}
+.img-messas img {
+    width: 100%;
     height: auto;
-}
+    border-radius: 16px;
+    display: block;}
 
+   /* parte do rodape */
 
+   
     
 
 
