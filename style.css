@@ -228,11 +228,18 @@ nav a:hover{
 
    /* parte do rodape */
 
-   
+.rodape{
+    display: flex;             
+    justify-content: space-between; 
+    align-items: center;
+}
     
+.icones-direita{
+    display: flex;
+    gap: 15px;
+}
 
-
-   
+.footer-bottom{}
 
 
 
