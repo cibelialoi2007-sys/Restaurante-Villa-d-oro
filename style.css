@@ -90,12 +90,10 @@ nav a:hover{
 /* Sobre o restaurante */
 
 .sobre-secao{    
-    display: grid;
-    grid-templetes-columns: 1fr 1fr;
-    gap: 30px 50x;
-    align-items: center;
-    padding: 50px 35px;
-    backgrouns-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 35px;
+    background-color: #FFFFFF;
 
 }
 
@@ -103,7 +101,6 @@ nav a:hover{
     grid-column: 1;
     grid-row: 1;
     
-
 }
 
 .SobreR p{
@@ -119,49 +116,127 @@ nav a:hover{
     margin-bottom: 20px;
     
 }
-
-.p-sobre-inferior{
-    font-family: 'Instrument Sans';
-    font-size: 18px;
-    color: #5E5E5E;
-
+.img-sobre{
+    width: 631px;
+    height: 407px;
+    border-radius: 10px;
+    object-fit: cover;
 }
-
 /* Icones sobre o restaurante */
-
-.icones-sobre{
-    grid-column: 1;
-    grid-row: 2;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-auto-flow: column;
-    row-gap: 8px;
-    text-align: center;
-    font-family: 'Instrument Sans';
-    font-size: 14px;
-    color: #5E5E5E;
-
+.icones{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
 }
-
 .icones i{
     font-size: 30px;
     color: #654D23;
     align-self: end;
 }
-
-
-.img-sobre{
-    grid-column: 2;
-    grid-row: 1 / -1;
+.caixa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-right: 1px solid #654D23;
+    padding-right: 10px;
 }
-
-.img-sobre img{
+#faca, #coracao, #panela{
+    color: #654D23;
+    font-size: 35px;
+}
+/* Parte do menu */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 35px
+}
+.direita-menu{
+    display: flex;
+    gap: 35px;
+    margin-right: 200px;
+}
+.esquerda-menu .p-menu{
+    font-family: 'Instrument Sans';
+    color: #654D23;
+    font-size: 15px;
+    text-transform: uppercase;   
+}
+.h2-menu{
+    font-family: 'Jomolhari';
+    color: #000000;
+    font-size: 42px;
+    font-weight: 100;
+}
+.descricao-menu{
+    font-family: 'Instrument Sans';
+    color:#5E5E5E;
+    font-size: 18px;
+}
+.btn-menu{
+    border: 1px solid #654D23;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color:#000000;
+    margin-top: 19px;
+}
+/* Parte da Reserva */
+.secao-reserva{
+    background-color: #253B1D;
+    padding: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: row;
+}
+.reserva h5{
+    font-family: 'Instrument Sans';
+    color:#F6F0E2;
+    font-size: 18px;
+}
+.reserva h2{
+    font-family: Jomolhari;
+    color: #FFFFFF;
+    font-size: 44px;
+}
+.reserva p{
+    font-family: 'Instrument Sans';
+    color: #F6F0E2;
+    font-size: 20px;
+}
+.btn-tres button {
+    background-color: #F6F0E2;
+    color: #253B1D;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-family: 'Instrument Sans';
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* IMAGEM DA MESA RESERVA */
+.img-messas {
+    width: 45%;
+    max-width: 571px;
+    margin-left: auto;
+    
+}
+.img-messas img {
     width: 100%;
-    height: 300px;
-    border-radius: 10px;
-    object-fit: cover;
-}
+    height: auto;
+    border-radius: 16px;
+    display: block;}
+
+   /* parte do rodape */
+
+   
+    
+
+
+   
+
+
+
+
 
 
 
