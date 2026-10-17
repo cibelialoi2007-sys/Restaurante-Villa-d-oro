@@ -230,16 +230,21 @@ nav a:hover{
 
 .rodape{
     display: flex;             
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 25px;
 }
     
-.icones-direita{
-    display: flex;
-    gap: 15px;
+.footer-icones{
+    gap: 15px
 }
 
-.footer-bottom{}
+.footer-autorais{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
 
 
 
