@@ -45,10 +45,6 @@ nav a:hover{
     padding: 10px 20px;
 }
 
-.hero{
-    background-color: #FAF6EF;
-}
-
 .home{
     display: flex;
     justify-content: space-between;
@@ -103,7 +99,7 @@ nav a:hover{
     
 }
 
-.SobreR p{
+.Sobre-R p{
     font-family: 'Instrument Sans';
     font-size: 15px;
     font-weight: 400;
