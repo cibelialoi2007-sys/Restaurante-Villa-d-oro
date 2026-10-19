@@ -85,21 +85,19 @@ nav a:hover{
 
 /* Sobre o restaurante */
 
-.sobre-secao{    
+.sobre-restaurante{    
     display: flex;
     justify-content: space-between;
     padding: 10px 35px;
     background-color: #FFFFFF;
-
 }
 
-.sobre-restaurante {
+.nosso-restaurante{
     grid-column: 1;
     grid-row: 1;
-    
 }
 
-.Sobre-R p{
+.Paragrafo p{
     font-family: 'Instrument Sans';
     font-size: 15px;
     font-weight: 400;
